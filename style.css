@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(red, yellow);
+}
+
+.box-2{
+    width: 400px;
+    height: 400px;
+    background-image: repeating-linear-gradient(to right, red 0px, yellow 20px);
+}
+
+.box-3{
+    width: 400px;
+    height: 400px;
+    background-image: repeating-linear-gradient(to right, red 0px, red 10px, yellow 10px, yellow 20px);
+}
